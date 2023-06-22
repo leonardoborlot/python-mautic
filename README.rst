@@ -1,3 +1,7 @@
+Estou pegando esta aPI aqui pra atualizar, se alguém quiser contribuir, deixa uma mensagem ai. 
+----------------------------------
+
+
 ===============================
 Mautic Python
 ===============================
@@ -33,3 +37,4 @@ This way you'll have `creds.json` in temporary directory. Now you can start usin
     >>> mautic = MauticOauth2Client(base_url='<base URL>', client_id='<Mautic Public Key>', token=token)
     >>> contacts = Contacts(client=mautic)
     >>> print(contacts.get_list())
+
